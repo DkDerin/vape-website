@@ -1,0 +1,70 @@
+.banner {
+
+    background-color: rgb(204, 190, 220);
+    width: 100%;
+    padding: 2em 0;
+  }
+  
+  .row {
+    align-items: center;
+  }
+  
+  .header-title {
+    color: rgb(255, 255, 255);
+    text-shadow: 1px 1px 2px #7c7c7c;
+  }
+  
+  .header-p {
+    color: rgb(255, 255, 255);
+  }
+  
+  .but {
+    font-family: "Montserrat", sans-serif;
+    background-color: #E8FC56;
+  
+    color: black;
+    padding: 10px 10px;
+    text-align: center;
+    display: inline-block;
+    font-size: 16px;
+    margin: 10px 30px;
+    cursor: pointer;
+    text-decoration: none;
+    border-radius: 30px;
+    font-weight: bold;
+  }
+  
+  .but:hover {
+    background-color: white;
+    color: black;
+  
+  }
+  
+  .but-2 {
+    font-family: "Montserrat", sans-serif;
+    border: 2px solid #E8FC56;
+    color: white;
+    padding: 10px 10px;
+    text-align: center;
+    display: inline-block;
+    font-size: 16px;
+    margin: 10px 30px;
+    cursor: pointer;
+    text-decoration: none;
+    border-radius: 30px;
+    font-weight: bold;
+  }
+  
+  .but-2:hover {
+    background-color: black;
+    border: none;
+    color: white;
+  
+  }
+  
+  @media screen and (max-width: 567px) {
+    .banner {
+      text-align: center;
+    }
+  }
+  
